@@ -4,12 +4,12 @@
 @import "{{ site.theme }}";
 
 body {
-  background-color: #bedac5;
+  background-color: #e6f2ef;  // Reverted to the original background color
   color: #1d3f4d;
 }
 
 .wrapper {
-  background-color: #bedac5;
+  background-color: #ffffff;  // Keeping the wrapper background white
 }
 
 header {
@@ -17,23 +17,23 @@ header {
 }
 
 header h1 a, header h1 a:hover {
-  color: #69b8b9;
+  color: #69b8b9;  // Title color
 }
 
 header p {
-  color: #69b8b9;
+  color: #69b8b9;  // Description color
 }
 
 a, a:hover, a:focus {
-  color: #f9a825;
+  color: #f9a825;  // Keeping the gold color for links
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #d4d0cc;
+  color: #d4d0cc;  // Heading color
 }
 
 p, ul, ol {
-  color: #1d3f4d;
+  color: #1d3f4d;  // Main text color
 }
 
 footer {
