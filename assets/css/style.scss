@@ -5,17 +5,35 @@
 
 body {
   background-color: #e6f2ef;
+  color: #1d3f4d;
 }
 
 .wrapper {
   background-color: #ffffff;
 }
 
-header, footer {
-  background-color: #2d545e;
-  color: #ffffff;
+header {
+  background-color: transparent;
+  color: #1d3f4d;
+}
+
+header h1, header p {
+  color: #1d3f4d;
 }
 
 a {
   color: #f9a825;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1d3f4d;
+}
+
+p, ul, ol {
+  color: #1d3f4d;
+}
+
+footer {
+  background-color: transparent;
+  color: #1d3f4d;
 }
