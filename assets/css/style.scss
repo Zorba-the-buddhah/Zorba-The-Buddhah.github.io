@@ -9,9 +9,9 @@
   background-position: top left;
   background-size: 100px auto;
   padding-top: 120px;
-  background-color: #ff0000 
+  background-color: #ff0000 !important; // This will make the header bright red
 }
 
 .project-name {
-  color: #00ff00 
+  color: #00ff00 !important; // This will make the main title bright green
 }
