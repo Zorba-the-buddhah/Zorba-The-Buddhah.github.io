@@ -19,7 +19,9 @@
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <p>
+  {{ site.description | replace: 'Atas.net', '<a href="https://atas.net">Atas.net</a>' }}
+</p>
         
         {% if site.twitter_username %}
         <p class="view"><a href="https://twitter.com/{{ site.twitter_username }}"><i class="fab fa-twitter"></i> Follow on X</a></p>
