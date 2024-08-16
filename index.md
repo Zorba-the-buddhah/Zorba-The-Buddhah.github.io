@@ -1,18 +1,17 @@
 ---
 layout: default
+title: Home
 ---
 
-# Mindful Trading
+# Welcome to My Atas.net Financial Indicators
 
-Welcome to My Atas.net Financial Indicators
-
-Here you can find various indicators for mindful trading on the Atas.net platform.
+Here you'll find information and download links for custom financial indicators developed for the Atas.net platform.
 
 ## Available Indicators
 
-- [Indicator 1](/indicators/indicator1)
-- [Indicator 2](/indicators/indicator2)
+- [Indicator 1](./indicators/indicator1)
+- [Indicator 2](./indicators/indicator2)
 
-## About
+## Downloads
 
-These indicators are designed to help traders make more mindful and informed decisions in their trading activities.
+Download links will be added here.
