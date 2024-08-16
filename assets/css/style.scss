@@ -4,35 +4,27 @@
 @import "{{ site.theme }}";
 
 body {
-  background-color: #e6f2ef;
+  background-color: #bedac5;
   color: #1d3f4d;
 }
 
 .wrapper {
-  background-color: #ffffff;
+  background-color: #bedac5;
 }
 
 header {
   background-color: transparent;
-  color: #1d3f4d;
 }
 
-header h1, header p {
-  color: #1d3f4d;
+header h1 a, header h1 a:hover {
+  color: #69b8b9;
 }
 
-// Updated link styles
+header p {
+  color: #69b8b9;
+}
+
 a, a:hover, a:focus {
-  color: #f9a825;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-// This ensures all links in the header, including "View My GitHub Profile", use the correct color
-header a, header a:hover, header a:focus {
   color: #f9a825;
 }
 
@@ -49,11 +41,17 @@ footer {
   color: #1d3f4d;
 }
 
-// Twitter link style (if you've added it)
+// Styling for X and Instagram links
 .view a {
-  color: #1da1f2;
+  color: #69b8b9;
+  text-decoration: none;
   
   &:hover {
     text-decoration: underline;
   }
+}
+
+// If you want to style the icons specifically
+.fab {
+  color: #69b8b9;
 }
