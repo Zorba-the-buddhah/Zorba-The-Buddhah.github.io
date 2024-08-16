@@ -25,8 +25,9 @@ a {
   color: #f9a825;
 }
 
+// New styles for headings
 h1, h2, h3, h4, h5, h6 {
-  color: #1d3f4d;
+  color: #d4d0cc;
 }
 
 p, ul, ol {
@@ -36,4 +37,14 @@ p, ul, ol {
 footer {
   background-color: transparent;
   color: #1d3f4d;
+}
+
+// Twitter link style (if you've added it)
+.view a {
+  color: #1da1f2;
+  text-decoration: none;
+  
+  &:hover {
+    text-decoration: underline;
+  }
 }
