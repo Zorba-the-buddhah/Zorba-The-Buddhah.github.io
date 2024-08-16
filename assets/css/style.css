@@ -1,16 +1,21 @@
 ---
 ---
 
-@import "jekyll-theme-minimal";
+@import "{{ site.theme }}";
 
-/* Primary Colors */
 body {
-  background-color: #e0f7f7; /* Turquoise/aqua background */
-  color: #1f3a4c; /* Navy blue/dark teal text */
+  background-color: #e6f2ef;
+}
+
+.wrapper {
+  background-color: #ffffff;
+}
+
+header, footer {
+  background-color: #2d545e;
+  color: #ffffff;
 }
 
 a {
-  color: #ee951b; /* Orange accent for links */
+  color: #f9a825;
 }
-
-/* Additional styles... */
