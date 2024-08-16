@@ -13,41 +13,4 @@ a {
   color: #ee951b; /* Orange accent for links */
 }
 
-header {
-  background-color: #e0f7f7; /* Header background */
-  color: #1f3a4c; /* Header text */
-  border-bottom: 2px solid #ee951b; /* Orange border for header */
-}
-
-footer {
-  background-color: #1f3a4c; /* Footer background */
-  color: #e0f7f7; /* Footer text */
-  border-top: 2px solid #ee951b; /* Orange border for footer */
-}
-
-/* Buttons */
-.btn {
-  background-color: #ee951b; /* Orange button background */
-  color: #ffffff; /* White text on buttons */
-  border: none;
-}
-
-.btn:hover {
-  background-color: #d17d16; /* Slightly darker orange on hover */
-}
-
-/* Headings */
-h1, h2, h3, h4, h5, h6 {
-  color: #1f3a4c; /* Navy blue/dark teal headings */
-  border-bottom: 2px solid #ee951b; /* Orange underline */
-}
-
-/* Additional Orange Accents */
-strong {
-  color: #ee951b; /* Orange for bold text */
-}
-
-blockquote {
-  border-left: 4px solid #ee951b; /* Orange border for blockquotes */
-  color: #1f3a4c; /* Text color inside blockquotes */
-}
+/* Additional styles... */
