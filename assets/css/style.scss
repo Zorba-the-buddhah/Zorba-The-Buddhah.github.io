@@ -1,1 +1,13 @@
 
+---
+---
+
+@import "{{ site.theme }}";
+
+.page-header {
+  background-image: url('/assets/images/ezgif-6-89ce35078d.png');
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100px auto; // Adjust size as needed
+  padding-top: 120px; // Adjust to make room for the logo
+}
