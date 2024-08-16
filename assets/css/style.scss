@@ -16,12 +16,13 @@ header {
   background-color: transparent;
 }
 
-header h1 a, header h1 a:hover {
-  color: #69b8b9;  // Title color
+header h1.site-title {
+  color: #69b8b9;  // This should be the same color as your description
+  font-weight: bold;
 }
 
 header p {
-  color: #69b8b9;  // Description color
+  color: #69b8b9;  // Description color, should be the same as the title
 }
 
 a, a:hover, a:focus {
