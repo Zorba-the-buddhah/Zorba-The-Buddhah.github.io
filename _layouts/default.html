@@ -19,16 +19,20 @@
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
-       <p>
-  {{ site.description | replace: 'Atas.net', '<a href="https://atas.net" target="_blank" rel="noopener noreferrer">Atas.net</a>' }}
-</p>
+        <p>
+          {{ site.description | replace: 'Atas.net', '<a href="https://atas.net" target="_blank" rel="noopener noreferrer">Atas.net</a>' }}
+        </p>
         
         {% if site.twitter_username %}
-        <p class="view"><a href="https://twitter.com/{{ site.twitter_username }}"><i class="fab fa-twitter"></i> Follow on X</a></p>
+        <p class="view"><a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i> Follow on X</a></p>
         {% endif %}
         
         {% if site.instagram_username %}
-        <p class="view"><a href="https://instagram.com/{{ site.instagram_username }}"><i class="fab fa-instagram"></i> Follow on Instagram</a></p>
+        <p class="view"><a href="https://instagram.com/{{ site.instagram_username }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> Follow on Instagram</a></p>
+        {% endif %}
+
+        {% if site.email %}
+        <p class="view"><a href="mailto:{{ site.email }}"><i class="fas fa-envelope"></i> Contact via Email</a></p>
         {% endif %}
       </header>
       <section>
