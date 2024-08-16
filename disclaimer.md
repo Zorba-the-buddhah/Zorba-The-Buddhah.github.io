@@ -1,5 +1,3 @@
-Disclaimer
-
 The indicators and tools provided on this website are designed for educational and informational purposes only and are not intended as financial advice. Trading in financial markets, including cryptocurrencies, carries a high level of risk and may not be suitable for all investors. The high volatility of cryptocurrencies can result in significant gains as well as losses. You should carefully consider your investment objectives, level of experience, and risk appetite before engaging in any trading activity.
 
 No Guarantee of Success
