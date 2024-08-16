@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Mindfull Trading
+# Mindful Trading
 
 Welcome to My Atas.net Financial Indicators
 
