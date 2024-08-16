@@ -1,16 +1,5 @@
-title: My Financial Indicators
-description: A collection of custom indicators for the Atas.net platform.
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
+title: Your Financial Indicators
+description: ATAS.net indicators available for download
 logo: /assets/images/logo.png
-
-# Site settings
-url: "https://zorba-the-buddhah.github.io"
-baseurl: "" # Leave this blank for the root of the domain
-
-# Social Links (optional)
-github_username: yourusername
-twitter_username: yourusername
-
-# Customization (optional)
-# You can add custom styles or other settings as needed
 
