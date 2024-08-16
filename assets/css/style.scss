@@ -21,11 +21,21 @@ header h1, header p {
   color: #1d3f4d;
 }
 
-a {
+// Updated link styles
+a, a:hover, a:focus {
+  color: #f9a825;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+// This ensures all links in the header, including "View My GitHub Profile", use the correct color
+header a, header a:hover, header a:focus {
   color: #f9a825;
 }
 
-// New styles for headings
 h1, h2, h3, h4, h5, h6 {
   color: #d4d0cc;
 }
@@ -42,7 +52,6 @@ footer {
 // Twitter link style (if you've added it)
 .view a {
   color: #1da1f2;
-  text-decoration: none;
   
   &:hover {
     text-decoration: underline;
