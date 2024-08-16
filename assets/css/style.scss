@@ -4,12 +4,12 @@
 @import "{{ site.theme }}";
 
 body {
-  background-color: #e6f2ef;  // Reverted to the original background color
+  background-color: #e6f2ef;
   color: #1d3f4d;
 }
 
 .wrapper {
-  background-color: #ffffff;  // Keeping the wrapper background white
+  background-color: #ffffff;
 }
 
 header {
@@ -25,15 +25,20 @@ header p {
 }
 
 a, a:hover, a:focus {
-  color: #f9a825;  // Keeping the gold color for links
+  color: #f9a825;  // Orange color for all links
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #d4d0cc;  // Heading color
+  color: #d4d0cc;
 }
 
 p, ul, ol {
-  color: #1d3f4d;  // Main text color
+  color: #1d3f4d;
 }
 
 footer {
@@ -41,17 +46,16 @@ footer {
   color: #1d3f4d;
 }
 
-// Styling for X and Instagram links
+// Styling for X and Instagram links (now orange like other links)
 .view a {
-  color: #69b8b9;
-  text-decoration: none;
+  color: #f9a825;
   
   &:hover {
     text-decoration: underline;
   }
 }
 
-// If you want to style the icons specifically
+// Icon color for X and Instagram
 .fab {
-  color: #69b8b9;
+  color: #f9a825;
 }
