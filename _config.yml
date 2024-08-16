@@ -1,6 +1,7 @@
 title: My Financial Indicators
 description: A collection of custom indicators for the Atas.net platform.
 theme: jekyll-theme-cayman
+logo: /assets/images/logo.png
 
 # Site settings
 url: "https://zorba-the-buddhah.github.io"
