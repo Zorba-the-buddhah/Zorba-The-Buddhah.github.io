@@ -14,14 +14,7 @@ I am not affiliated with, endorsed by, or working in partnership with the ATAS p
 
 - [Indicator 1](./indicators/indicator1)
 - [Indicator 2](./indicators/indicator2)
-
-## Indicators with Backtesting
-
-- [Indicator 3](./indicators/indicator1)
 - [Indicator 4](./indicators/indicator2)
-
-## ICT Indicators
-
 - [Indicator 5](./indicators/indicator1)
 - [Indicator 6](./indicators/indicator2)
 
