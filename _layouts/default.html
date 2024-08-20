@@ -15,7 +15,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1 class="site-title">{{ site.title | default: site.github.repository_name }}</h1>
+        <h1 class="site-title"><a href="{{ "/" | relative_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
@@ -30,7 +30,6 @@
         {% if site.instagram_username %}
         <p class="view"><a href="https://instagram.com/{{ site.instagram_username }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> Follow on Instagram</a></p>
         {% endif %}
-
         {% if site.email %}
         <p class="view"><a href="mailto:{{ site.email }}"><i class="fas fa-envelope"></i> Contact via Email</a></p>
         {% endif %}
