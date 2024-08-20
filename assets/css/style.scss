@@ -1,127 +1,49 @@
 ---
 ---
 @import "{{ site.theme }}";
-
-/* Base styles */
 body {
   background-color: #e6f2ef;
   color: #1d3f4d;
 }
-
 .wrapper {
   background-color: #ffffff;
-  padding: 20px;
-  margin-top: 0;  /* Remove top margin to eliminate white space at the top */
 }
-
 header {
   background-color: transparent;
-  width: 270px;  /* Set a fixed width for the header */
 }
-
 header h1.site-title {
-  color: #69b8b9;
+  color: #69b8b9;  // This should be the same color as your description
   font-weight: bold;
 }
-
 header p {
-  color: #69b8b9;
+  color: #69b8b9;  // Description color, should be the same as the title
 }
-
 a, a:hover, a:focus {
-  color: #f9a825;
+  color: #f9a825;  // Orange color for all links
   text-decoration: none;
 }
-
 a:hover {
   text-decoration: underline;
 }
-
 h1, h2, h3, h4, h5, h6 {
   color: #d4d0cc;
 }
-
 p, ul, ol {
   color: #1d3f4d;
 }
-
 footer {
   background-color: transparent;
   color: #1d3f4d;
 }
-
+// Styling for X and Instagram links (now orange like other links)
 .view a {
   color: #f9a825;
-  
+
   &:hover {
     text-decoration: underline;
   }
 }
-
+// Icon color for X and Instagram
 .fab {
   color: #f9a825;
-}
-
-/* Clickable title styling */
-.site-title a {
-  color: #69b8b9;
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
-}
-
-/* Mobile styles */
-@media screen and (max-width: 960px) {
-  body {
-    padding: 15px;
-  }
-
-  .wrapper {
-    width: auto;
-    margin: 0;
-  }
-
-  header {
-    float: none;
-    position: static;
-    width: auto;
-    padding-right: 0;
-  }
-
-  section {
-    border: 1px solid #e5e5e5;
-    border-width: 1px 0;
-    padding: 20px 0;
-    margin: 0 0 20px;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  body {
-    word-wrap: break-word;
-  }
-
-  header {
-    padding: 0;
-  }
-
-  header ul, header p.view {
-    position: static;
-  }
-
-  pre, code {
-    word-wrap: normal;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  body {
-    padding: 15px;
-  }
-
-  .wrapper {
-    padding: 15px;
-  }
 }
