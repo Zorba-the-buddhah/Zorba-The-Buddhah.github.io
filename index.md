@@ -19,7 +19,7 @@ The ATR Bands indicator is a powerful tool that overlays dynamic support and res
 ### [Chandelier Exit](./indicators/chandelier-exit.md)
 ![Chandelier exit Thumbnail](./assets/image/chandelier-exit-thumb.png){: width="300" height="169"}
 
-Chandelier Exit is a trailing stop-loss indicator that adapts to market volatility, helping traders protect profits and manage risk effectively.
+ The Chandelier Exit is a trailing stop-loss indicator designed to assist traders in managing their trades by identifying strategic exit points. Unlike static stop-loss strategies, it adapts to market volatility, providing more responsive and effective risk management. Particularly useful in trending markets, the Chandelier Exit helps capture profits while protecting against sudden reversals.
 
 ### [Candle Duration](./indicators/candle-duration.md)
 ![Candle Duration Thumbnail](./assets/image/candle-duration-thumb.png){: width="300" height="169"}
