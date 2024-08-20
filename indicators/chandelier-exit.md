@@ -42,7 +42,7 @@ The indicator uses the Average True Range (ATR) to measure volatility and adjust
 
 ## Download
 
-[Download Chandelier Exit Indicator](../downloads/chandelier-exit-indicator.dll){: .button}
+[Download Chandelier Exit Indicator](../downloads/chandelier-exit.dll){: .button}
 
 ## Installation Instructions
 
