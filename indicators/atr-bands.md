@@ -41,7 +41,7 @@ The ATR is calculated using the specified period, and the bands are adjusted bas
 
 ## Download
 
-[Download ATR Bands Indicator](../downloads/atr-bands-indicator.dll){: .button}
+[Download ATR Bands Indicator](../downloads/atr-bands.dll){: .button}
 
 ## Installation Instructions
 
