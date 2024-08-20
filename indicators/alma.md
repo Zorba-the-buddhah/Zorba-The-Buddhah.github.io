@@ -46,7 +46,7 @@ The Gaussian distribution allows ALMA to give more weight to recent prices while
 
 ## Download
 
-[Download ALMA Indicator](../downloads/alma-indicator.dll){: .button}
+[Download ALMA Indicator](../downloads/alma.dll){: .button}
 
 ## Installation Instructions
 
