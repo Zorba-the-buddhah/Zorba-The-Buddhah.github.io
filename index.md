@@ -10,28 +10,28 @@ I am not affiliated with, endorsed by, or working in partnership with the ATAS p
 
 ## Indicators
 
-### [ATR Bands](./indicators/atr-bands)
+### [ATR Bands](./indicators/atr-bands.md)
 ![ATR Bands Thumbnail](./assets/image/atr-bands-thumb.png){: width="300" height="169"}
 
 
 ATR Bands use the Average True Range to create dynamic support and resistance levels, adapting to market volatility for more precise trading signals.
 
-### [Chandelier Exit](./indicators/chandelier-exit)
+### [Chandelier Exit](./indicators/chandelier-exit.md)
 ![Chandelier exit Thumbnail](./assets/image/chandelier-exit-thumb.png){: width="300" height="169"}
 
 Chandelier Exit is a trailing stop-loss indicator that adapts to market volatility, helping traders protect profits and manage risk effectively.
 
-### [Candle Duration](./indicators/candle-duration)
+### [Candle Duration](./indicators/candle-duration.md)
 ![Candle Duration Thumbnail](./assets/image/candle-duration-thumb.png){: width="300" height="169"}
 
 Candle Duration visualizes the time span of each candle, helping traders identify areas of high and low market activity.
 
-### [Variable Index Dynamic Average (VIDYA)](./indicators/vidya)
+### [Variable Index Dynamic Average (VIDYA)](./indicators/vidya.md)
 ![Vidya Thumbnail](./assets/image/vidya-thumb.png){: width="300" height="169"}
 
 VIDYA is an adaptive moving average that adjusts its sensitivity based on market volatility, providing more responsive signals in volatile markets.
 
-### [Arnaud Legoux Moving Average (ALMA)](./indicators/alma)
+### [Arnaud Legoux Moving Average (ALMA)](./indicators/alma.md)
 ![Alma Thumbnail](./assets/image/alma-thumb.png){: width="300" height="169"}
 
 ALMA is a sophisticated moving average that reduces lag while maintaining smoothness, ideal for trend identification and noise reduction in financial data.
