@@ -31,7 +31,7 @@ Candle Duration visualizes the time span of each candle, helping traders identif
 VIDYA is an adaptive moving average that adjusts its sensitivity based on market volatility, providing more responsive signals in volatile markets.
 
 ### [Arnaud Legoux Moving Average (ALMA)](./indicators/alma)
-![ALMA Thumbnail](./assets/images/alma-thumb.jpg)
+![Alma Thumbnail](./assets/image/alma-thumb.png){: width="300" height="169"}
 
 ALMA is a sophisticated moving average that reduces lag while maintaining smoothness, ideal for trend identification and noise reduction in financial data.
 
