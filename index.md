@@ -29,7 +29,7 @@ The Candle Duration indicator reintroduces the time dimension into non-time-base
 ### [Variable Index Dynamic Average (VIDYA)](./indicators/vidya.md)
 ![Vidya Thumbnail](./assets/image/vidya-thumb.png){: width="300" height="169"}
 
-VIDYA is an adaptive moving average that adjusts its sensitivity based on market volatility, providing more responsive signals in volatile markets.
+The VIDYA indicator is an adaptive moving average that dynamically adjusts to market volatility using the Chande Momentum Oscillator. It helps traders identify trend direction with customizable colors for bullish and bearish signals, providing a more responsive and visually intuitive analysis tool.
 
 ### [Arnaud Legoux Moving Average (ALMA)](./indicators/alma.md)
 ![Alma Thumbnail](./assets/image/alma-thumb.png){: width="300" height="169"}
