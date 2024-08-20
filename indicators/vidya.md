@@ -44,7 +44,7 @@ The CMO is used to determine the volatility of the market, which then adjusts th
 
 ## Download
 
-[Download VIDYA Indicator](../downloads/vidya-indicator.dll){: .button}
+[Download VIDYA Indicator](../downloads/vidya.dll){: .button}
 
 ## Installation Instructions
 
