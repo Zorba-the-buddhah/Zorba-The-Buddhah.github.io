@@ -3,7 +3,7 @@
 // Custom styles
 body {
   background-color: #e6f2ef !important; // Light green background for the body
-  color: #1d3f4d;
+  color: #1d3f4d !important; // Ensuring dark text color
   margin: 0;
   padding: 0;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -11,7 +11,7 @@ body {
 }
 
 .wrapper {
-  background-color: #ffffff; // White background for the content area
+  background-color: #ffffff !important; // White background for the content area
   border: 1px solid #e6f2ef; // Light green border to match the body background
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); // Optional subtle shadow
@@ -19,25 +19,8 @@ body {
   max-width: 1200px; // Max width for large screens
 }
 
-header {
-  background-color: transparent;
-  width: 270px;
-  float: left;
-  position: fixed;
-  -webkit-font-smoothing: subpixel-antialiased;
-}
-
-header h1.site-title {
-  color: #69b8b9; // Teal color for the site title
-  font-weight: bold;
-}
-
-header p {
-  color: #69b8b9; // Teal color for the description
-}
-
 a, a:hover, a:focus {
-  color: #f9a825; // Orange color for all links
+  color: #f9a825 !important; // Orange color for all links
   text-decoration: none;
 }
 
@@ -46,165 +29,17 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #d4d0cc; // Light gray color for all headings
+  color: #d4d0cc !important; // Light gray color for all headings
   margin: 0 0 20px;
   line-height: 1.1;
 }
 
-h1 {
-  font-size: 28px;
-}
-
-h2 {
-  color: #393939;
-}
-
-h3, h4, h5, h6 {
-  color: #494949;
-}
-
 p, ul, ol, table, pre, dl {
   margin: 0 0 20px;
-  color: #1d3f4d; // Dark text color for body content
+  color: #1d3f4d !important; // Dark text color for body content
 }
 
-footer {
-  background-color: transparent;
-  color: #1d3f4d;
-  width: 270px;
-  float: left;
-  position: fixed;
-  bottom: 50px;
-  -webkit-font-smoothing: subpixel-antialiased;
-}
-
-// Styling for social media links (X and Instagram)
-.view a {
-  color: #f9a825; // Orange like other links
-
-  &:hover {
-    text-decoration: underline;
-  }
-}
-
-// Icon color for X and Instagram
-.fab {
-  color: #f9a825;
-}
-
-// Blockquote styling
-blockquote {
-  border-left: 1px solid #e5e5e5;
-  margin: 0;
-  padding: 0 0 0 20px;
-  font-style: italic;
-}
-
-// Code and pre formatting
-code, pre {
-  font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
-  color: #333;
-}
-
-pre {
-  padding: 8px 15px;
-  background: #f8f8f8;
-  border-radius: 5px;
-  border: 1px solid #e5e5e5;
-  overflow-x: auto;
-}
-
-// Table styling
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-th, td {
-  text-align: left;
-  padding: 5px 10px;
-  border-bottom: 1px solid #e5e5e5;
-}
-
-dt {
-  color: #444;
-  font-weight: 700;
-}
-
-th {
-  color: #444;
-}
-
-// Image styling
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-// Keyboard key styling
-kbd {
-  background-color: #fafbfc;
-  border: 1px solid #c6cbd1;
-  border-bottom-color: #959da5;
-  border-radius: 3px;
-  box-shadow: inset 0 -1px 0 #959da5;
-  color: #444d56;
-  display: inline-block;
-  font-size: 11px;
-  line-height: 10px;
-  padding: 3px 5px;
-  vertical-align: middle;
-}
-
-// Section styling
-section {
-  width: 500px;
-  float: right;
-  padding-bottom: 50px;
-}
-
-hr {
-  border: 0;
-  background: #e5e5e5;
-  height: 1px;
-  margin: 0 0 20px;
-}
-
-// Download button styling
-ul.downloads {
-  list-style: none;
-  height: 40px;
-  padding: 0;
-  background: #f4f4f4;
-  border-radius: 5px;
-  border: 1px solid #e0e0e0;
-  width: 270px;
-}
-
-.downloads li {
-  width: 89px;
-  float: left;
-  border-right: 1px solid #e0e0e0;
-  height: 40px;
-}
-
-.downloads a {
-  line-height: 1;
-  font-size: 11px;
-  color: #676767;
-  display: block;
-  text-align: center;
-  padding-top: 6px;
-  height: 34px;
-}
-
-.downloads a:hover, .downloads a:focus {
-  color: #675c5c;
-  font-weight: bold;
-}
-
-// Media Queries for responsiveness
+// Further styles as needed...
 
 @media print, screen and (max-width: 960px) {
   .wrapper {
@@ -224,63 +59,18 @@ ul.downloads {
     border: 1px solid #e5e5e5;
     padding: 20px;
     margin: 0 0 20px;
-    background-color: #ffffff; // Ensure section remains on a white background
-  }
-
-  header a small {
-    display: inline;
-  }
-
-  header ul {
-    position: absolute;
-    right: 50px;
-    top: 52px;
-  }
-}
-
-@media print, screen and (max-width: 720px) {
-  body {
-    word-wrap: break-word;
-  }
-
-  header {
-    padding: 0;
-  }
-
-  header ul, header p.view {
-    position: static;
-  }
-
-  pre, code {
-    word-wrap: normal;
+    background-color: #ffffff !important; // Ensure section remains on a white background
   }
 }
 
 @media print, screen and (max-width: 480px) {
   body {
     padding: 15px;
-    background-color: #e6f2ef; // Ensure background remains consistent
+    background-color: #e6f2ef !important; // Ensure background remains consistent
   }
 
   .wrapper {
     padding: 15px;
     margin: 0 5px; // Prevent horizontal overflow
   }
-
-  .downloads {
-    width: 100%; // Ensure the downloads section fits within the mobile screen
-  }
-
-  .downloads li {
-    width: 33.3%; // Make sure download links are evenly distributed
-  }
 }
-
-@media print {
-  body {
-    padding: 0.4in;
-    font-size: 12pt;
-    color: #444;
-  }
-}
-
