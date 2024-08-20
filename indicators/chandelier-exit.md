@@ -52,4 +52,4 @@ The indicator uses the Average True Range (ATR) to measure volatility and adjust
 4. Click the blue button to refresh the indicator list.
 5. The Chandelier Exit indicator will now appear in the list of indicators under the "Zorba the Buddhah" section.
 
-To report bugs, comment, or for any questions, please [contact us](mailto:zorba.the.buddhah@gmail.com).
+To report bugs, comment, or for any questions, please [contact me](mailto:zorba.the.buddhah@gmail.com).
