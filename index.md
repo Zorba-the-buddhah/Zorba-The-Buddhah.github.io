@@ -21,7 +21,7 @@ ATR Bands use the Average True Range to create dynamic support and resistance le
 Chandelier Exit is a trailing stop-loss indicator that adapts to market volatility, helping traders protect profits and manage risk effectively.
 
 ### [Candle Duration](./indicators/candle-duration)
-![Candle Duration Thumbnail](./assets/images/candle-duration-thumb.jpg)
+![Candle Duration Thumbnail](./assets/image/candle-duration-thumb.png){: width="300" height="169"}
 
 Candle Duration visualizes the time span of each candle, helping traders identify areas of high and low market activity.
 
