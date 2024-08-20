@@ -14,7 +14,7 @@ I am not affiliated with, endorsed by, or working in partnership with the ATAS p
 ![ATR Bands Thumbnail](./assets/image/atr-bands-thumb.png){: width="300" height="169"}
 
 
-ATR Bands use the Average True Range to create dynamic support and resistance levels, adapting to market volatility for more precise trading signals.
+The ATR Bands indicator is a powerful tool that overlays dynamic support and resistance bands on your price chart. By leveraging the Average True Range (ATR), it adapts to market volatility, providing traders with a reliable measure to identify potential breakout or reversal points. Ideal for traders looking to enhance their technical analysis toolkit with volatility-adjusted price bands.
 
 ### [Chandelier Exit](./indicators/chandelier-exit.md)
 ![Chandelier exit Thumbnail](./assets/image/chandelier-exit-thumb.png){: width="300" height="169"}
