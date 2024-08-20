@@ -11,7 +11,8 @@ I am not affiliated with, endorsed by, or working in partnership with the ATAS p
 ## Indicators
 
 ### [ATR Bands](./indicators/atr-bands)
-![ATR Bands Thumbnail](./assets/images/atr-bands-thumb.jpg)
+![ATR Bands Thumbnail](./assets/image/atr-bands-thumb.png){: width="300" height="169"}
+
 
 ATR Bands use the Average True Range to create dynamic support and resistance levels, adapting to market volatility for more precise trading signals.
 
