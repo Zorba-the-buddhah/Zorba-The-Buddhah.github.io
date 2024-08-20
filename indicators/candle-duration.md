@@ -44,7 +44,7 @@ The Candle Duration indicator automatically calculates its parameters based on t
 
 ## Download
 
-[Download Candle Duration Indicator](../downloads/candle-duration-indicator.dll){: .button}
+[Download Candle Duration Indicator](../downloads/candle-duration.dll){: .button}
 
 ## Installation Instructions
 
