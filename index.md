@@ -26,7 +26,7 @@ Chandelier Exit is a trailing stop-loss indicator that adapts to market volatili
 Candle Duration visualizes the time span of each candle, helping traders identify areas of high and low market activity.
 
 ### [Variable Index Dynamic Average (VIDYA)](./indicators/vidya)
-![VIDYA Thumbnail](./assets/images/vidya-thumb.jpg)
+![Vidya Thumbnail](./assets/image/vidya-thumb.png){: width="300" height="169"}
 
 VIDYA is an adaptive moving average that adjusts its sensitivity based on market volatility, providing more responsive signals in volatile markets.
 
