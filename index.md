@@ -34,5 +34,5 @@ The VIDYA indicator is an adaptive moving average that dynamically adjusts to ma
 ### [Arnaud Legoux Moving Average (ALMA)](./indicators/alma.md)
 ![Alma Thumbnail](./assets/image/alma-thumb.png){: width="300" height="169"}
 
-ALMA is a sophisticated moving average that reduces lag while maintaining smoothness, ideal for trend identification and noise reduction in financial data.
+The ALMA is a smooth, adaptive moving average that minimizes lag and noise, making it ideal for trend identification. It features adjustable parameters and optional directional coloring for easy visualization of market trends.
 
