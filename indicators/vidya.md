@@ -9,38 +9,47 @@ title: Variable Index Dynamic Average (VIDYA)
 
 ## Description
 
-The Variable Index Dynamic Average (VIDYA) is an adaptive moving average that adjusts its sensitivity based on market volatility. This makes it more responsive to price changes in volatile markets and less reactive in stable markets, providing traders with a more accurate representation of the current trend.
+The Variable Index Dynamic Average (VIDYA) is an adaptive moving average designed to adjust its sensitivity based on market volatility. By combining an Exponential Moving Average (EMA) with the Chande Momentum Oscillator (CMO), VIDYA becomes more responsive in volatile markets and smoother in stable markets. This dynamic adjustment provides traders with a more accurate representation of the current trend, making it a powerful tool for identifying market direction.
 
 ## Key Features
 
-- Adapts to market volatility
-- Combines EMA and Chande Momentum Oscillator
-- More responsive in volatile markets, smoother in stable markets
-- Colored direction option for easy trend identification
+- **Adaptive to Market Volatility**: Adjusts its responsiveness based on market conditions.
+- **Combination of EMA and CMO**: Leverages the strengths of both indicators for dynamic trend analysis.
+- **Responsive in Volatile Markets**: Reacts quickly to price changes when volatility is high.
+- **Smoother in Stable Markets**: Reduces noise and remains stable during periods of low volatility.
+- **Colored Direction Option**: Visually identifies bullish and bearish trends with customizable colors.
 
 ## How it Works
 
-VIDYA uses two main components:
+VIDYA uses two key components to calculate its values:
 
-1. An Exponential Moving Average (EMA)
-2. The Chande Momentum Oscillator (CMO)
+1. **Exponential Moving Average (EMA)**: Serves as the base calculation for the moving average.
+2. **Chande Momentum Oscillator (CMO)**: Measures market momentum and determines the smoothing factor for the EMA.
 
-The CMO is used to determine the volatility of the market, which then adjusts the smoothing factor of the EMA. In volatile markets, VIDYA will react more quickly to price changes, while in stable markets, it will behave more like a standard moving average.
+The CMO adjusts the sensitivity of the EMA. In volatile markets, VIDYA responds more quickly to price changes, whereas in stable markets, it acts more like a traditional moving average. The indicator also features an option to color the VIDYA line based on its direction, making it easier to identify trends visually.
+
+### Calculation Steps:
+
+1. **EMA Calculation**: The EMA is calculated using the specified period.
+2. **CMO Calculation**: The CMO calculates market momentum over a chosen period.
+3. **Smoothing Factor**: The absolute value of the CMO is used as a smoothing factor to adapt the EMA.
+4. **VIDYA Value**: The VIDYA is computed by applying this dynamic smoothing factor to adjust the EMA.
+5. **Directional Coloring**: If enabled, the VIDYA line is colored based on whether it is trending upwards (bullish) or downwards (bearish).
 
 ## How to Use
 
-1. Trend Identification: When the price is above the VIDYA line, it suggests an uptrend. When below, it suggests a downtrend.
-2. Support and Resistance: The VIDYA line can act as dynamic support in uptrends and resistance in downtrends.
-3. Crossovers: Price or faster moving average crossovers with VIDYA can signal potential trend changes.
-4. Volatility Analysis: The slope and behavior of the VIDYA line can give insights into market volatility.
+1. **Trend Identification**: When the price is above the VIDYA line, it suggests an uptrend; when below, it suggests a downtrend.
+2. **Support and Resistance**: The VIDYA line can act as dynamic support during uptrends and resistance during downtrends.
+3. **Crossovers**: Price or faster moving average crossovers with VIDYA can signal potential trend changes.
+4. **Volatility Analysis**: The slope and behavior of the VIDYA line provide insights into market volatility, indicating when the market is likely to be more or less reactive to price changes.
 
 ## Parameters
 
-- EMA Period: Default is 14, determines the base responsiveness of the indicator
-- CMO Period: Default is 14, determines how volatility is measured
-- Colored Direction: Option to color the line based on its slope
-- Bullish Color: Color for upward slope (default: Green)
-- Bearish Color: Color for downward slope (default: Red)
+- **EMA Period**: Default is 14. Determines the lookback period for the Exponential Moving Average.
+- **CMO Period**: Default is 14. Sets the period for the Chande Momentum Oscillator, which adjusts the EMA's sensitivity.
+- **Colored Direction**: Boolean option to enable or disable the coloring of the VIDYA line based on trend direction.
+- **Bullish Color**: Color used for an upward slope (default: Green).
+- **Bearish Color**: Color used for a downward slope (default: Red).
 
 ## Download
 
@@ -48,10 +57,10 @@ The CMO is used to determine the volatility of the market, which then adjusts th
 
 ## Installation Instructions
 
-1. Download the VIDYA indicator file (.dll)
+1. Download the VIDYA indicator file (.dll).
 2. Place the .dll file into the `Documents/ATAS/Indicators` folder on your computer.
 3. After adding the file, a blue button will appear on the bottom right panel of the ATAS platform, indicating that the list of indicators has been updated.
 4. Click the blue button to refresh the indicator list.
 5. The VIDYA indicator will now appear in the list of indicators under the "Zorba the Buddhah" section.
 
-To report bugs, comment, or for any questions, please [contact me](mailto:zorba.the.buddhah@gmail.com).
+For any issues or questions related to the indicator, please [contact me](mailto:zorba.the.buddhah@gmail.com).
