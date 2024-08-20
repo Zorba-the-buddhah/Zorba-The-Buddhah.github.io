@@ -24,7 +24,7 @@ The ATR Bands indicator is a powerful tool that overlays dynamic support and res
 ### [Candle Duration](./indicators/candle-duration.md)
 ![Candle Duration Thumbnail](./assets/image/candle-duration-thumb.png){: width="300" height="169"}
 
-Candle Duration visualizes the time span of each candle, helping traders identify areas of high and low market activity.
+The Candle Duration indicator reintroduces the time dimension into non-time-based charts on the ATAS platform, such as volume, delta, or tick charts. It color-codes candles based on the time they take to form, offering insights into market activity. A new feature allows users to disable logging of candle durations to prevent log overload during extended trading sessions.
 
 ### [Variable Index Dynamic Average (VIDYA)](./indicators/vidya.md)
 ![Vidya Thumbnail](./assets/image/vidya-thumb.png){: width="300" height="169"}
