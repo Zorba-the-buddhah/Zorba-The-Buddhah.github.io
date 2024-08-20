@@ -16,7 +16,7 @@ I am not affiliated with, endorsed by, or working in partnership with the ATAS p
 ATR Bands use the Average True Range to create dynamic support and resistance levels, adapting to market volatility for more precise trading signals.
 
 ### [Chandelier Exit](./indicators/chandelier-exit)
-![Chandelier Exit Thumbnail](./assets/images/chandelier-exit-thumb.jpg)
+![Chandelier exit Thumbnail](./assets/image/chandelier-exit-thumb.png){: width="300" height="169"}
 
 Chandelier Exit is a trailing stop-loss indicator that adapts to market volatility, helping traders protect profits and manage risk effectively.
 
