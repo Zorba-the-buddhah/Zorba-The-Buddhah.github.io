@@ -56,4 +56,4 @@ The Gaussian distribution allows ALMA to give more weight to recent prices while
 4. Click the blue button to refresh the indicator list.
 5. The ALMA indicator will now appear in the list of indicators under the "Zorba the Buddhah" section.
 
-To report bugs, comment, or for any questions, please [contact us](mailto:zorba.the.buddhah@gmail.com).
+To report bugs, comment, or for any questions, please [contact me](mailto:zorba.the.buddhah@gmail.com).
