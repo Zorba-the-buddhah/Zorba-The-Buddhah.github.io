@@ -51,4 +51,4 @@ The ATR is calculated using the specified period, and the bands are adjusted bas
 4. Click the blue button to refresh the indicator list.
 5. The ATR Bands indicator will now appear in the list of indicators under the "Zorba the Buddhah" section.
 
-For any issues or questions regarding installation, please [contact us](mailto:zorba.the.buddhah@gmail.com).
+For any issues or questions regarding installation, please [contact me](mailto:zorba.the.buddhah@gmail.com).
