@@ -2,7 +2,44 @@
 ---
 @import "{{ site.theme }}";
 
-/* Your existing custom styles here */
+/* Enhanced link styles with arrow indicator */
+a {
+  color: #5a9e9e;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  position: relative;
+  padding-left: 1.2em;
+}
+
+a::before {
+  content: "\2192"; /* Right arrow Unicode character */
+  position: absolute;
+  left: 0;
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+a:hover, a:focus {
+  color: #76bfbf;
+}
+
+a:hover::before, a:focus::before {
+  left: 0.3em;
+  opacity: 1;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+/* Remove arrow for header and footer links */
+header a, footer a {
+  padding-left: 0;
+}
+
+header a::before, footer a::before {
+  content: none;
+}
 
 /* Adjustments for larger screens */
 @media screen and (min-width: 1024px) {
