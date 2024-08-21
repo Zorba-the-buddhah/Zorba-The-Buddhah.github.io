@@ -2,20 +2,33 @@
 ---
 @import "{{ site.theme }}";
 
-/* Custom styles */
+/* Enhanced link styles */
 a {
-  color: #76bfbf;
+  color: #5a9e9e; /* Slightly darker for better contrast */
+  text-decoration: underline; /* Always underline links */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
 }
 
 a:hover, a:focus {
-  color: #5a9e9e; /* A slightly darker shade for hover state */
+  color: #76bfbf; /* Lighter on hover */
+  background-color: #f0f8f8; /* Very light background on hover */
+  box-shadow: 0 1px 0 0 currentColor; /* Thicker underline on hover */
 }
 
-/* Optional: Update other elements that might use the link color */
-.downloads a {
-  color: #76bfbf;
+/* Change cursor to pointer on hover */
+a:hover {
+  cursor: pointer;
 }
 
-.downloads a:hover, .downloads a:focus {
-  color: #5a9e9e;
+/* Add icon to external links */
+a[href^="http"]:after {
+  content: " \f08e"; /* FontAwesome external link icon */
+  font-family: FontAwesome;
+  font-size: 0.8em;
+  vertical-align: super;
+}
+
+/* Ensure icon isn't added to internal links */
+a[href^="{{ site.url }}"]:after {
+  content: "";
 }
