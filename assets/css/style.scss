@@ -48,14 +48,17 @@ header a::before, footer a::before {
     margin-bottom: 30px;
   }
 
-  .indicator-preview img {
-  margin-right: 10px; /* Reduced from 20px to 10px */
+ .indicator-preview img {
+  margin-right: 10px !important; /* Force the reduction of space between the image and text */
 }
 
 .indicator-preview .description {
-  margin-left: 0; /* Ensure no left margin is added */
-  padding-left: 0; /* Remove any padding that might add extra space */
+  margin-left: 0 !important; /* Remove any left margin */
+  padding-left: 0 !important; /* Remove any left padding */
+  display: flex;
+  align-items: center; /* Align text vertically center if not already */
 }
+
 
 }
 
