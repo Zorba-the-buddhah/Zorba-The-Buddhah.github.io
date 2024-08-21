@@ -48,16 +48,19 @@ header a::before, footer a::before {
     margin-bottom: 30px;
   }
 
- .indicator-preview img {
-  margin-right: 10px !important; /* Force the reduction of space between the image and text */
+ .indicator-preview {
+  display: flex;
+  align-items: flex-start; /* Ensure top alignment */
+}
+
+.indicator-preview img {
+  margin-right: 15px; /* Adjust space between image and text */
 }
 
 .indicator-preview .description {
-  margin-left: 0 !important; /* Remove any left margin */
-  padding-left: 0 !important; /* Remove any left padding */
-  display: flex;
-  align-items: center; /* Align text vertically center if not already */
+  flex: 1; /* Make sure the description takes up the remaining space */
 }
+
 
 
 }
