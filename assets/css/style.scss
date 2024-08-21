@@ -11,6 +11,8 @@ a {
   padding-left: 1.2em;
 }
 
+
+
 a::before {
   content: "\2192";
   position: absolute;
@@ -56,6 +58,14 @@ header a::before, footer a::before {
   .indicator-preview .description {
     flex: 1;
   }
+}
+
+/* Update the thumbnail image style */
+.indicator-preview img {
+  width: 300px;
+  height: 169px; /* Specify the height to maintain aspect ratio */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  margin-right: 20px;
 }
 
 /* Full-width image for indicator pages */
