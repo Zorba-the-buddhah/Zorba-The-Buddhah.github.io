@@ -2,41 +2,29 @@
 ---
 @import "{{ site.theme }}";
 
-/* Enhanced link styles with arrow indicator for internal links */
-a {
-  color: #5a9e9e;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  position: relative;
-  padding-left: 1.2em;
+/* Your existing custom styles here */
+
+/* Adjustments for larger screens */
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    width: 90%;
+    max-width: 1200px;
+  }
+
+  section {
+    width: calc(100% - 300px); /* Subtracting the header width plus some margin */
+  }
+
+  header {
+    width: 270px; /* Keep the original width */
+  }
 }
 
-a::before {
-  content: "\2192"; /* Right arrow Unicode character */
-  position: absolute;
-  left: 0;
-  opacity: 0.7;
-  transition: all 0.3s ease;
+/* Ensure full width on very large screens */
+@media screen and (min-width: 1440px) {
+  .wrapper {
+    width: 1300px;
+  }
 }
 
-a:hover, a:focus {
-  color: #76bfbf;
-}
-
-a:hover::before, a:focus::before {
-  left: 0.3em;
-  opacity: 1;
-}
-
-a:hover {
-  cursor: pointer;
-}
-
-/* Remove arrow for header and footer links */
-header a, footer a {
-  padding-left: 0;
-}
-
-header a::before, footer a::before {
-  content: none;
-}
+/* Existing mobile styles remain unchanged */
