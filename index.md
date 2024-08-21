@@ -29,7 +29,7 @@ I am not affiliated with, endorsed by, or working in partnership with the ATAS p
   <img src="./assets/image/candle-duration-thumb.png" alt="Candle Duration Thumbnail" width="300" height="169">
   <div class="description">
     <h3><a href="./indicators/candle-duration">Candle Duration</a></h3>
-    <p>The Candle Duration indicator reintroduces the time dimension into non-time-based charts on the ATAS platform, such as volume, delta, or tick charts. It color-codes candles based on the time they take to form, offering insights into market activity. A new feature allows users to disable logging of candle durations to prevent log overload during extended trading sessions.</p>
+    <p>The Candle Duration indicator reintroduces the time dimension into non-time-based charts on the ATAS platform, such as volume, delta, or tick charts. It color-codes candles based on the time they take to form, offering insights into market activity.</p>
   </div>
 </div>
 
