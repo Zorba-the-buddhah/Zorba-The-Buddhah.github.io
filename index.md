@@ -13,7 +13,7 @@ I am not affiliated with, endorsed by, or working in partnership with the ATAS p
   <img src="./assets/image/atr-bands-thumb.png" alt="ATR Bands Thumbnail" width="300" height="169">
   <div class="description">
     <h3><a href="./indicators/atr-bands">ATR Bands</a></h3>
-    <p>The ATR Bands indicator is a powerful tool that overlays dynamic support and resistance bands on your price chart. By leveraging the Average True Range (ATR), it adapts to market volatility, providing traders with a reliable measure to identify potential breakout or reversal points. Ideal for traders looking to enhance their technical analysis toolkit with volatility-adjusted price bands.</p>
+    <p>The ATR Bands indicator is a tool that overlays dynamic support and resistance bands on your price chart. By leveraging the ATR, it adapts to market volatility, providing traders with a reliable measure to identify potential breakout or reversal points. Ideal for traders looking to enhance their technical analysis toolkit with volatility-adjusted price bands.</p>
   </div>
 </div>
 
@@ -21,7 +21,7 @@ I am not affiliated with, endorsed by, or working in partnership with the ATAS p
   <img src="./assets/image/chandelier-exit-thumb.png" alt="Chandelier Exit Thumbnail" width="300" height="169">
   <div class="description">
     <h3><a href="./indicators/chandelier-exit">Chandelier Exit</a></h3>
-    <p>The Chandelier Exit is a trailing stop-loss indicator designed to assist traders in managing their trades by identifying strategic exit points. Unlike static stop-loss strategies, it adapts to market volatility, providing more responsive and effective risk management. Particularly useful in trending markets, the Chandelier Exit helps capture profits while protecting against sudden reversals.</p>
+    <p>The Chandelier Exit is a trailing stop-loss indicator designed to assist traders in managing their trades by identifying strategic exit points. Unlike static stop-loss strategies, it adapts to market volatility, providing more responsive and effective risk management. The Chandelier Exit helps capture profits while protecting against sudden reversals.</p>
   </div>
 </div>
 
