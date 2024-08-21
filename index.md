@@ -8,7 +8,6 @@ The indicators and tools provided on this website are designed for educational a
 # Welcome to My Atas.net Financial Indicators
 I am not affiliated with, endorsed by, or working in partnership with the ATAS platform. I am an independent user and enthusiast who has developed these indicators based on my personal experience and extensive use of the ATAS platform.
 
-## Indicators
 
 <div class="indicator-preview">
   <img src="./assets/image/atr-bands-thumb.png" alt="ATR Bands Thumbnail" width="300" height="169">
