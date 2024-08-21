@@ -49,11 +49,13 @@ header a::before, footer a::before {
   }
 
   .indicator-preview img {
-    margin-right: 15px; /* Adjust space between image and text */
+    margin-right: 10px; /* Reduce space between image and text */
   }
 
   .indicator-preview .description {
-    flex: 1; /* Make sure the description takes up the remaining space */
+    flex: 1;
+    margin-left: 0; /* Ensure no extra space on the left */
+    padding-left: 0; /* Ensure no padding on the left */
   }
 }
 
@@ -124,3 +126,4 @@ header a::before, footer a::before {
     width: 1300px;
   }
 }
+
