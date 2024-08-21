@@ -10,7 +10,6 @@ a {
   position: relative;
   padding-left: 1.2em;
 }
-
 a::before {
   content: "\2192";
   position: absolute;
@@ -18,58 +17,51 @@ a::before {
   opacity: 0.7;
   transition: all 0.3s ease;
 }
-
 a:hover, a:focus {
   color: #3d7a7a;
 }
-
 a:hover::before, a:focus::before {
   left: 0.3em;
   opacity: 1;
 }
-
 a:hover {
   cursor: pointer;
 }
-
 header a, footer a {
   padding-left: 0;
 }
-
 header a::before, footer a::before {
   content: none;
 }
 
-/* New two-column layout for desktop */
+/* Indicator preview styles */
+.indicator-preview {
+  margin-bottom: 30px;
+}
+
+.indicator-preview img {
+  width: 300px;
+  height: 169px;
+  object-fit: cover;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.indicator-preview .description h3 {
+  margin-top: 0;
+}
+
+/* Desktop layout */
 @media screen and (min-width: 1024px) {
   .indicator-preview {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 30px;
-  }
-
-  .indicator-preview img {
-    width: 300px;
-    margin-right: 20px;
   }
 
   .indicator-preview .description {
     flex: 1;
-    padding-left: 0; /* Remove any potential left padding */
+    padding-left: 0;
   }
-}
-
-/* Update the thumbnail image style */
-.indicator-preview img {
-  width: 300px;
-  height: 169px; /* Specify the height to maintain aspect ratio */
-  object-fit: cover; /* Ensures the image covers the area without distortion */
-  margin-right: 20px;
-}
-
-/* Adjust text alignment for better visual connection with the image */
-.indicator-preview .description h3 {
-  margin-top: 0; /* Remove top margin from the heading */
 }
 
 /* Full-width image for indicator pages */
@@ -85,11 +77,9 @@ header a::before, footer a::before {
     width: 90%;
     max-width: 1200px;
   }
-
   section {
     width: calc(100% - 300px);
   }
-
   header {
     width: 270px;
   }
