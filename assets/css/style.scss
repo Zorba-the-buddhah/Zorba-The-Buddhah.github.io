@@ -55,11 +55,13 @@ header a::before, footer a::before {
   margin-right: 20px;
 }
 /* Full-width image for indicator pages */
-.indicator-page img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-}
+.indicator-page {
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
 /* Existing responsive styles */
 @media screen and (min-width: 1024px) {
   .wrapper {
