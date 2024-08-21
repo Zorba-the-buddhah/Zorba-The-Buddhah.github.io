@@ -126,4 +126,20 @@ header a::before, footer a::before {
     width: 1300px;
   }
 }
+/* Ensure all large images fill their container's width */
+.page-content img {
+  display: block; /* Ensure the image behaves as a block element */
+  max-width: 100%; /* Prevent the image from exceeding the width of its container */
+  height: auto; /* Maintain aspect ratio */
+  width: 100%; /* Force the image to take up the full width of its container */
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any padding */
+  border: none; /* Ensure no border affects the layout */
+}
+
+/* If necessary, override any specific classes applied to the image */
+.page-content .full-width-image {
+  max-width: 100%;
+  width: 100%;
+}
 
