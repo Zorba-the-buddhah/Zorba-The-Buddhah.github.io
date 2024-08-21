@@ -1,7 +1,6 @@
 ---
 ---
 @import "{{ site.theme }}";
-
 /* Existing link styles */
 a {
   color: #5a9e9e;
@@ -33,44 +32,34 @@ header a, footer a {
 header a::before, footer a::before {
   content: none;
 }
-
-/* Indicator preview styles */
-.indicator-preview {
-  margin-bottom: 30px;
-}
-
-.indicator-preview img {
-  width: 300px;
-  height: 169px;
-  object-fit: cover;
-  margin-right: 15px;
-  margin-bottom: 15px;
-}
-
-.indicator-preview .description h3 {
-  margin-top: 0;
-}
-
-/* Desktop layout */
+/* New two-column layout for desktop */
 @media screen and (min-width: 1024px) {
   .indicator-preview {
     display: flex;
     align-items: flex-start;
+    margin-bottom: 30px;
   }
-
+  .indicator-preview img {
+    width: 300px;
+    margin-right: 20px;
+  }
   .indicator-preview .description {
     flex: 1;
-    padding-left: 0;
   }
 }
-
+/* Update the thumbnail image style */
+.indicator-preview img {
+  width: 300px;
+  height: 169px; /* Specify the height to maintain aspect ratio */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  margin-right: 20px;
+}
 /* Full-width image for indicator pages */
 .indicator-page img {
   width: 100%;
   height: auto;
   margin-bottom: 20px;
 }
-
 /* Existing responsive styles */
 @media screen and (min-width: 1024px) {
   .wrapper {
@@ -84,7 +73,6 @@ header a::before, footer a::before {
     width: 270px;
   }
 }
-
 @media screen and (min-width: 1440px) {
   .wrapper {
     width: 1300px;
