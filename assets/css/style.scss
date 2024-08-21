@@ -2,17 +2,30 @@
 ---
 @import "{{ site.theme }}";
 
-/* Enhanced link styles */
+/* Enhanced link styles with arrow indicator */
 a {
-  color: #5a9e9e; /* Slightly darker for better contrast */
-  text-decoration: underline; /* Always underline links */
-  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  color: #5a9e9e;
+  text-decoration: none; /* Remove underline */
+  transition: all 0.3s ease;
+  position: relative;
+  padding-left: 1.2em; /* Make space for the arrow */
+}
+
+a::before {
+  content: "\2192"; /* Right arrow Unicode character */
+  position: absolute;
+  left: 0;
+  opacity: 0.7;
+  transition: all 0.3s ease;
 }
 
 a:hover, a:focus {
-  color: #76bfbf; /* Lighter on hover */
-  background-color: #f0f8f8; /* Very light background on hover */
-  box-shadow: 0 1px 0 0 currentColor; /* Thicker underline on hover */
+  color: #76bfbf;
+}
+
+a:hover::before, a:focus::before {
+  left: 0.3em; /* Move arrow slightly right on hover */
+  opacity: 1;
 }
 
 /* Change cursor to pointer on hover */
@@ -20,15 +33,32 @@ a:hover {
   cursor: pointer;
 }
 
-/* Add icon to external links */
-a[href^="http"]:after {
-  content: " \f08e"; /* FontAwesome external link icon */
-  font-family: FontAwesome;
+/* Styles for external links */
+a[href^="http"] {
+  padding-right: 1.2em; /* Make space for the external link icon */
+}
+
+a[href^="http"]::after {
+  content: "\f08e"; /* FontAwesome external link icon */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
   font-size: 0.8em;
-  vertical-align: super;
+  position: absolute;
+  right: 0;
+  top: 0.2em;
+  opacity: 0.7;
 }
 
 /* Ensure icon isn't added to internal links */
-a[href^="{{ site.url }}"]:after {
-  content: "";
+a[href^="{{ site.url }}"]::after {
+  content: none;
+}
+
+/* Optional: Different style for navigation links if needed */
+header a, footer a {
+  padding-left: 0;
+}
+
+header a::before, footer a::before {
+  content: none;
 }
