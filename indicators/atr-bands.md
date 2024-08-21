@@ -2,9 +2,11 @@
 layout: default
 title: ATR Bands
 ---
+
 <div class="indicator-page">
 
 # ATR Bands
+
 ![ATR Bands](../assets/image/atr-bands-large.png)
 
 ## Description
@@ -58,4 +60,5 @@ The ATR is computed using a specified period, which determines the lookback wind
 5. The ATR Bands indicator will now appear in the list of indicators under the "Zorba the Buddhah" section.
 
 For any issues or questions related to the indicator, please [contact me](mailto:zorba.the.buddhah@gmail.com).
+
 </div>
