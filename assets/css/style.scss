@@ -2,38 +2,20 @@
 ---
 @import "{{ site.theme }}";
 
-/* Custom styles can be added here */
-
-/* 
-Commented out custom color definitions:
-body {
-  background-color: #e6f2ef;
-  color: #1d3f4d;
-}
-.wrapper {
-  background-color: #ffffff;
-}
-header {
-  background-color: transparent;
-}
-header h1.site-title {
-  color: #69b8b9;
-  font-weight: bold;
-}
-...
-*/
-
-/* Retain any non-color related styles you want to keep */
-.site-title a {
-  text-decoration: none;
+/* Custom styles */
+a {
+  color: #76bfbf;
 }
 
-.site-title a:hover {
-  text-decoration: underline;
+a:hover, a:focus {
+  color: #5a9e9e; /* A slightly darker shade for hover state */
 }
 
-/* Ensure images are responsive */
-img {
-  max-width: 100%;
-  height: auto;
+/* Optional: Update other elements that might use the link color */
+.downloads a {
+  color: #76bfbf;
+}
+
+.downloads a:hover, .downloads a:focus {
+  color: #5a9e9e;
 }
