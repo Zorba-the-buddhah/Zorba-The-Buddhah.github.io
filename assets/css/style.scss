@@ -1,5 +1,4 @@
 ---
----
 @import "{{ site.theme }}";
 
 /* Existing link styles */
@@ -12,7 +11,7 @@ a {
 }
 
 a::before {
-  content: "\2192";
+  content: "\2192"; /* Unicode for right arrow */
   position: absolute;
   left: 0;
   opacity: 0.7;
@@ -48,21 +47,13 @@ header a::before, footer a::before {
     margin-bottom: 30px;
   }
 
- .indicator-preview {
-  display: flex;
-  align-items: flex-start; /* Ensure top alignment */
-}
+  .indicator-preview img {
+    margin-right: 15px; /* Adjust space between image and text */
+  }
 
-.indicator-preview img {
-  margin-right: 15px; /* Adjust space between image and text */
-}
-
-.indicator-preview .description {
-  flex: 1; /* Make sure the description takes up the remaining space */
-}
-
-
-
+  .indicator-preview .description {
+    flex: 1; /* Make sure the description takes up the remaining space */
+  }
 }
 
 /* Thumbnail image style */
@@ -70,43 +61,40 @@ header a::before, footer a::before {
   width: 300px;
   height: 169px;
   object-fit: cover;
-  margin-right: 20px;
 }
 
 /* Styles for individual indicator pages */
-.indicator-page {
-  img {
-    display: block;
-    width: 100%;
-    height: auto;
-    max-width: none;
-    margin: 20px 0;
-  }
+.indicator-page img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: none;
+  margin: 20px 0;
+}
 
-  h1 {
-    color: #5a9e9e;
-    border-bottom: 2px solid #5a9e9e;
-    padding-bottom: 10px;
-  }
+.indicator-page h1 {
+  color: #5a9e9e;
+  border-bottom: 2px solid #5a9e9e;
+  padding-bottom: 10px;
+}
 
-  h2 {
-    color: #3d7a7a;
-    margin-top: 30px;
-  }
+.indicator-page h2 {
+  color: #3d7a7a;
+  margin-top: 30px;
+}
 
-  .button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #5a9e9e;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+.indicator-page .button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #5a9e9e;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
 
-    &:hover {
-      background-color: #3d7a7a;
-    }
-  }
+.indicator-page .button:hover {
+  background-color: #3d7a7a;
 }
 
 /* Existing responsive styles */
@@ -124,11 +112,9 @@ header a::before, footer a::before {
     width: 270px;
   }
 
-  .indicator-page {
-    img {
-      max-width: calc(100% + 300px);
-      margin-left: -150px;
-    }
+  .indicator-page img {
+    max-width: calc(100% + 300px);
+    margin-left: -150px;
   }
 }
 
