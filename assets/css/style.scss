@@ -2,7 +2,7 @@
 ---
 @import "{{ site.theme }}";
 
-/* Enhanced link styles with arrow indicator */
+/* Existing link styles */
 a {
   color: #5a9e9e;
   text-decoration: none;
@@ -12,7 +12,7 @@ a {
 }
 
 a::before {
-  content: "\2192"; /* Right arrow Unicode character */
+  content: "\2192";
   position: absolute;
   left: 0;
   opacity: 0.7;
@@ -20,7 +20,7 @@ a::before {
 }
 
 a:hover, a:focus {
-  color: #3d7a7a; /* Darker shade for hover */
+  color: #3d7a7a;
 }
 
 a:hover::before, a:focus::before {
@@ -32,7 +32,6 @@ a:hover {
   cursor: pointer;
 }
 
-/* Remove arrow for header and footer links */
 header a, footer a {
   padding-left: 0;
 }
@@ -41,7 +40,32 @@ header a::before, footer a::before {
   content: none;
 }
 
-/* Adjustments for larger screens */
+/* New two-column layout for desktop */
+@media screen and (min-width: 1024px) {
+  .indicator-preview {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
+
+  .indicator-preview img {
+    width: 300px;
+    margin-right: 20px;
+  }
+
+  .indicator-preview .description {
+    flex: 1;
+  }
+}
+
+/* Full-width image for indicator pages */
+.indicator-page img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Existing responsive styles */
 @media screen and (min-width: 1024px) {
   .wrapper {
     width: 90%;
@@ -49,19 +73,16 @@ header a::before, footer a::before {
   }
 
   section {
-    width: calc(100% - 300px); /* Subtracting the header width plus some margin */
+    width: calc(100% - 300px);
   }
 
   header {
-    width: 270px; /* Keep the original width */
+    width: 270px;
   }
 }
 
-/* Ensure full width on very large screens */
 @media screen and (min-width: 1440px) {
   .wrapper {
     width: 1300px;
   }
 }
-
-/* Existing mobile styles remain unchanged */
