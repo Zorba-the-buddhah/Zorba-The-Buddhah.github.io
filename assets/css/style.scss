@@ -47,6 +47,7 @@ header a::before, footer a::before {
     flex: 1;
   }
 }
+
 /* Update the thumbnail image style */
 .indicator-preview img {
   width: 300px;
@@ -54,6 +55,7 @@ header a::before, footer a::before {
   object-fit: cover; /* Ensures the image covers the area without distortion */
   margin-right: 20px;
 }
+
 /* Full-width image for indicator pages */
 .indicator-page {
   img {
@@ -62,6 +64,8 @@ header a::before, footer a::before {
     height: auto;
     margin: 20px 0;
   }
+} /* Add this closing brace */
+
 /* Existing responsive styles */
 @media screen and (min-width: 1024px) {
   .wrapper {
@@ -75,8 +79,10 @@ header a::before, footer a::before {
     width: 270px;
   }
 }
+
 @media screen and (min-width: 1440px) {
   .wrapper {
     width: 1300px;
   }
 }
+
