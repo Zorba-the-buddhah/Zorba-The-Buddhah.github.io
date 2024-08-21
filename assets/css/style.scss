@@ -2,7 +2,7 @@
 ---
 @import "{{ site.theme }}";
 
-/* Enhanced link styles with arrow indicator */
+/* Enhanced link styles with arrow indicator for internal links */
 a {
   color: #5a9e9e;
   text-decoration: none;
@@ -32,26 +32,7 @@ a:hover {
   cursor: pointer;
 }
 
-/* Styles for external links */
-a[href^="http"] {
-  padding-right: 1.2em;
-}
-
-a[href^="http"]::after {
-  content: "\2197"; /* Unicode character for north east arrow */
-  position: absolute;
-  right: 0;
-  top: 0;
-  font-size: 0.8em;
-  opacity: 0.7;
-}
-
-/* Ensure icon isn't added to internal links */
-a[href^="{{ site.url }}"]::after {
-  content: none;
-}
-
-/* Optional: Different style for navigation links if needed */
+/* Remove arrow for header and footer links */
 header a, footer a {
   padding-left: 0;
 }
