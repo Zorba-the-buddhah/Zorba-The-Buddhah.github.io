@@ -5,7 +5,7 @@ title: ATR Bands
 
 # ATR Bands
 
-![ATR Bands](../assets/image/atr-bands-large.png){: width="800" height="450"}
+![ATR Bands](../assets/image/atr-bands-large.png)
 
 ## Description
 
