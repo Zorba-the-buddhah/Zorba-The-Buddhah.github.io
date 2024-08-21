@@ -5,7 +5,7 @@ title: Candle Duration
 
 # Candle Duration
 
-![Candle Duration](../assets/image/candle-duration-large.png){: width="800" height="450"}
+![Candle Duration](../assets/image/candle-duration-large.png)
 
 ## Description
 
