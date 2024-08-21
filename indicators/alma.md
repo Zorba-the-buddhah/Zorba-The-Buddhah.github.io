@@ -5,7 +5,7 @@ title: Arnaud Legoux Moving Average (ALMA)
 
 # Arnaud Legoux Moving Average (ALMA)
 
-![ALMA](../assets/image/alma-large.png){: width="800" height="450"}
+![ALMA](../assets/image/alma-large.png)
 
 ## Description
 
