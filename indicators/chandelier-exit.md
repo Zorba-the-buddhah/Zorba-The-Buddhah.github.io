@@ -5,7 +5,7 @@ title: Chandelier Exit
 
 # Chandelier Exit
 
-![Chandelier Exit](../assets/image/chandelier-exit-large.png){: width="800" height="450"}
+![Chandelier Exit](../assets/image/chandelier-exit-large.png)
 
 ## Description
 
