@@ -5,7 +5,7 @@ title: Variable Index Dynamic Average (VIDYA)
 
 # Variable Index Dynamic Average (VIDYA)
 
-![VIDYA](../assets/image/vidya-large.png){: width="800" height="450"}
+![VIDYA](../assets/image/vidya-large.png)
 
 ## Description
 
