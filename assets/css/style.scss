@@ -66,13 +66,39 @@ header a::before, footer a::before {
   margin-right: 20px;
 }
 
-/* Full-width image for indicator pages */
+/* Styles for individual indicator pages */
 .indicator-page {
   img {
     display: block;
     width: 100%;
     height: auto;
+    max-width: none;
     margin: 20px 0;
+  }
+
+  h1 {
+    color: #5a9e9e;
+    border-bottom: 2px solid #5a9e9e;
+    padding-bottom: 10px;
+  }
+
+  h2 {
+    color: #3d7a7a;
+    margin-top: 30px;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5a9e9e;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #3d7a7a;
+    }
   }
 }
 
@@ -89,6 +115,13 @@ header a::before, footer a::before {
 
   header {
     width: 270px;
+  }
+
+  .indicator-page {
+    img {
+      max-width: calc(100% + 300px);
+      margin-left: -150px;
+    }
   }
 }
 
