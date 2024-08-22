@@ -66,14 +66,13 @@ header a::before, footer a::before {
   object-fit: cover;
 }
 
-/* Styles for individual indicator pages */
 .indicator-page img {
-  display: block;
-  width: 100%;
-  height: auto;
-  max-width: none;
-  margin: 20px 0;
+  display: block;      /* Ensures the image is a block element */
+  max-width: 100%;     /* Keeps the image responsive */
+  height: auto;        /* Maintains aspect ratio */
+  margin: 20px 0;      /* Adds spacing above and below the image */
 }
+
 
 .indicator-page h1 {
   color: #5a9e9e;
