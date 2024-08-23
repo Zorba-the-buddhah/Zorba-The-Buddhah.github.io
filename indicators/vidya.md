@@ -53,7 +53,7 @@ The CMO adjusts the sensitivity of the EMA. In volatile markets, VIDYA responds 
 
 ## Download
 
-[Download VIDYA Indicator](../downloads/vidya.dll){: .button}
+[Download VIDYA Indicator](../downloads/vidya.zip){: .button}
 
 ## Installation Instructions
 
