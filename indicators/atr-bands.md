@@ -9,12 +9,12 @@ title: ATR Bands
 
 ## Description
 
-ATR Bands is a powerful tool that leverages the Average True Range (ATR) to create dynamic support and resistance levels. These bands adjust to market volatility, offering traders more precise trading signals and aiding in the identification of potential breakouts or reversals. By expanding during volatile periods and contracting during calmer markets, the ATR Bands provide a reliable framework for analyzing price movements.
+ATR Bands is a robust tool that leverages the Average True Range (ATR) to create dynamic support and resistance levels. These bands adjust to market volatility, offering traders more precise trading signals and aiding in the identification of potential breakouts or reversals. By expanding during volatile periods and contracting during calmer markets, ATR Bands provide a reliable framework for analyzing price movements.
 
 ## Key Features
 
 - **Dynamic Support and Resistance**: Automatically adjusts levels based on market volatility.
-- **Volatility-Adjusted**: Uses ATR to account for changing market conditions.
+- **Volatility-Adjusted**: Utilizes ATR to account for changing market conditions.
 - **Customizable Parameters**: Easily adjust the period and multiplier to suit your trading style.
 - **Clear Visual Representation**: Displays upper and lower bands that clearly outline market boundaries.
 
@@ -58,4 +58,3 @@ The ATR is computed using a specified period, which determines the lookback wind
 5. The ATR Bands indicator will now appear in the list of indicators under the "Zorba the Buddhah" section.
 
 For any issues or questions related to the indicator, please [contact me](mailto:zorba.the.buddhah@gmail.com).
-
