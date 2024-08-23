@@ -9,7 +9,7 @@ title: Arnaud Legoux Moving Average (ALMA)
 
 ## Description
 
-The Arnaud Legoux Moving Average (ALMA) is an advanced moving average indicator designed to reduce lag while maintaining smoothness. By applying a Gaussian distribution to weight the moving average, ALMA provides a more responsive and accurate representation of price trends. This balance between noise reduction and responsiveness makes ALMA particularly effective for traders looking to identify trends with greater precision.
+The Arnaud Legoux Moving Average (ALMA) is an advanced moving average indicator designed to minimize lag while maintaining smoothness. By applying a Gaussian distribution to weight the moving average, ALMA provides a more responsive and accurate representation of price trends. This balance between noise reduction and responsiveness makes ALMA particularly effective for traders looking to identify trends with greater precision.
 
 ## Key Features
 
