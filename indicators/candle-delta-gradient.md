@@ -15,7 +15,7 @@ The indicator offers two calculation modes:
 - **Separated for Bullish and Bearish Candles**: Uses distinct color gradients for bullish and bearish candles.
 - **Unified**: Applies a single color gradient to all candles.
 
-This allows traders to select the mode that best fits their analysis needs.
+These modes allow traders to select the approach that best fits their analysis needs.
 
 ## Key Features
 
@@ -24,7 +24,7 @@ This allows traders to select the mode that best fits their analysis needs.
   - *Separated for Bullish and Bearish Candles*: Differentiates bullish candles with a green gradient and bearish candles with a red gradient.
   - *Unified*: Uses a blue gradient for all candles.
 - **Automatic Span Calculation**: Percentile-based thresholds are calculated from historical data, adapting the indicator to various market conditions.
-- **Optional Logging**: Allows users to log candle delta values, aiding in detailed analysis. This feature is disabled by default.
+- **Optional Logging**: Allows users to log candle delta values for detailed analysis. This feature is disabled by default.
 
 ## How it Works
 
