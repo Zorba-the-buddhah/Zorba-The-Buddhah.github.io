@@ -9,14 +9,14 @@ title: Chandelier Exit
 
 ## Description
 
-The Chandelier Exit is a powerful volatility-based indicator designed to set a trailing stop-loss that adapts to market conditions. It helps traders protect profits and manage risk by providing dynamic exit points that adjust based on market volatility.
+The Chandelier Exit is a robust, volatility-based indicator designed to set a trailing stop-loss that adapts to changing market conditions. It assists traders in protecting profits and managing risk by providing dynamic exit points that respond to market volatility.
 
 ## Key Features
 
 - **Volatility-Based Trailing Stop-Loss**: Adjusts dynamically to market conditions.
 - **Separate Long and Short Exit Levels**: Provides distinct levels for managing long and short trades.
-- **ATR-Driven Volatility Measurement**: Uses the Average True Range (ATR) to account for market volatility.
-- **Customizable Parameters**: Fine-tune the indicator settings to suit your trading strategy.
+- **ATR-Driven Volatility Measurement**: Utilizes the Average True Range (ATR) to account for market volatility.
+- **Customizable Parameters**: Fine-tune the indicator settings to align with your trading strategy.
 
 ## How it Works
 
@@ -25,7 +25,7 @@ The Chandelier Exit calculates two critical stop levels:
 1. **Long Stop**: The highest high over the specified period minus (ATR * multiplier).
 2. **Short Stop**: The lowest low over the specified period plus (ATR * multiplier).
 
-These levels are dynamically adjusted based on the ATR, which measures market volatility. This ensures that the stop-loss levels expand during volatile periods to avoid premature exits and contract during calmer periods to protect gains.
+These levels are dynamically adjusted based on the ATR, which measures market volatility. This approach ensures that the stop-loss levels expand during volatile periods to avoid premature exits and contract during calmer periods to protect gains.
 
 ## How to Use
 
@@ -36,8 +36,8 @@ These levels are dynamically adjusted based on the ATR, which measures market vo
 
 ## Parameters
 
-- **ATR Period**: Default is 22. Determines the lookback period for calculating ATR.
-- **ATR Multiplier**: Default is 3.0. Adjusts the distance of the stop from the price.
+- **ATR Period**: Default is 22. Sets the lookback period for calculating the ATR.
+- **ATR Multiplier**: Default is 3.0. Adjusts the distance of the stop from the price based on the ATR.
 
 ## Download
 
