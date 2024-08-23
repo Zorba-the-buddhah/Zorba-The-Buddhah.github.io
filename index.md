@@ -14,6 +14,7 @@ I am not affiliated with, endorsed by, or working in partnership with the ATAS p
     <h3><a href="./indicators/candle-delta-gradient">Candle Delta Gradient</a></h3>
     <p>The Candle Delta Gradient indicator visualizes the net difference between buying and selling volumes (delta) through color gradients on your chart. I like using this indicator on cumulative trades charts to gain a different perspective on the tape. It provides a clear view of market sentiment and helps identify shifts in trading activity.</p>
   </div>
+</div>
 
 <div class="indicator-preview">
   <img src="./assets/image/atr-bands-thumb.png" alt="ATR Bands Thumbnail" width="300" height="169">
@@ -53,5 +54,4 @@ I am not affiliated with, endorsed by, or working in partnership with the ATAS p
     <h3><a href="./indicators/alma">Arnaud Legoux Moving Average (ALMA)</a></h3>
     <p>The ALMA is a smooth, adaptive moving average that minimizes lag and noise, making it ideal for trend identification. I frequently use ALMA in my strategies as a baseline indicator, often pairing it with others to enhance accuracy. It features adjustable parameters and optional directional coloring for easy visualization of market trends.</p>
   </div>
-</div>
 </div>
