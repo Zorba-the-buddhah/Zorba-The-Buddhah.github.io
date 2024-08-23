@@ -9,7 +9,7 @@ title: Variable Index Dynamic Average (VIDYA)
 
 ## Description
 
-The Variable Index Dynamic Average (VIDYA) is an adaptive moving average designed to adjust its sensitivity based on market volatility. By combining an Exponential Moving Average (EMA) with the Chande Momentum Oscillator (CMO), VIDYA becomes more responsive in volatile markets and smoother in stable markets. This dynamic adjustment provides traders with a more accurate representation of the current trend, making it a powerful tool for identifying market direction.
+The Variable Index Dynamic Average (VIDYA) is an adaptive moving average designed to adjust its sensitivity based on market volatility. By combining an Exponential Moving Average (EMA) with the Chande Momentum Oscillator (CMO), VIDYA becomes more responsive in volatile markets and smoother in stable markets. This dynamic adjustment provides a more accurate representation of the current trend, making it a powerful tool for identifying market direction.
 
 ## Key Features
 
@@ -26,7 +26,7 @@ VIDYA uses two key components to calculate its values:
 1. **Exponential Moving Average (EMA)**: Serves as the base calculation for the moving average.
 2. **Chande Momentum Oscillator (CMO)**: Measures market momentum and determines the smoothing factor for the EMA.
 
-The CMO adjusts the sensitivity of the EMA. In volatile markets, VIDYA responds more quickly to price changes, whereas in stable markets, it acts more like a traditional moving average. The indicator also features an option to color the VIDYA line based on its direction, making it easier to identify trends visually.
+The CMO adjusts the sensitivity of the EMA. In volatile markets, VIDYA responds more quickly to price changes, whereas in stable markets, it behaves more like a traditional moving average. The indicator also features an option to color the VIDYA line based on its direction, making trends easier to identify visually.
 
 ### Calculation Steps:
 
