@@ -98,7 +98,7 @@ The indicator calculates thresholds based on your chart’s historical data:
 
 ## Download
 
-[Download Candle Delta Gradient Indicator](../downloads/candle-delta-gradient.dll){: .button}
+[Download Candle Delta Gradient Indicator](https://github.com/Zorba-the-buddhah/Zorba-The-Buddhah.github.io/releases/download/v1.0.0/Candle.Delta.Gradient.zip){: .button}
 
 ## Installation Instructions
 
