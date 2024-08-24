@@ -41,7 +41,7 @@ These levels are dynamically adjusted based on the ATR, which measures market vo
 
 ## Download
 
-[Download Chandelier Exit Indicator](../downloads/chandelier-exit.dll){: .button}
+[Download Chandelier Exit Indicator](https://github.com/Zorba-the-buddhah/Zorba-The-Buddhah.github.io/releases/download/v1.0.0/Chandelier.exit.8.zip){: .button}
 
 ## Installation Instructions
 
