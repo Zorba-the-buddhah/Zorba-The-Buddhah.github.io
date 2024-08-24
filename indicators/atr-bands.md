@@ -47,7 +47,7 @@ The ATR is computed using a specified period, which determines the lookback wind
 
 ## Download
 
-[Download ATR Bands Indicator](https://github.com/Zorba-the-buddhah/Zorba-The-Buddhah.github.io/releases/download/v1.0.0/ATR-Bands.zip){: .button}
+[Download ATR Bands Indicator](https://github.com/Zorba-the-buddhah/Zorba-The-Buddhah.github.io/releases/download/v1.0.0/Average.True.Range.Bands.zip){: .button}
 
 ## Installation Instructions
 
