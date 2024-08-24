@@ -53,7 +53,7 @@ The CMO adjusts the sensitivity of the EMA. In volatile markets, VIDYA responds 
 
 ## Download
 
-[Download VIDYA Indicator](https://github.com/Zorba-the-buddhah/Zorba-The-Buddhah.github.io/releases/download/v1.0.0/VIDYA.dll){: .button}
+[Download VIDYA Indicator](https://github.com/Zorba-the-buddhah/Zorba-The-Buddhah.github.io/releases/download/v1.0.0/VIDYA.zip){: .button}
 
 ## Installation Instructions
 
