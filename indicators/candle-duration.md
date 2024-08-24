@@ -53,7 +53,7 @@ The Candle Duration indicator automatically calculates its parameters based on t
 
 ## Download
 
-[Download Candle Duration Indicator](../downloads/candle-duration.dll){: .button}
+[Download Candle Duration Indicator](https://github.com/Zorba-the-buddhah/Zorba-The-Buddhah.github.io/releases/download/v1.0.0/Candle.Duration.8.zip){: .button}
 
 ## Installation Instructions
 
