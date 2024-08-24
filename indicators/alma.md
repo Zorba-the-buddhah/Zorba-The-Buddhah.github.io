@@ -46,7 +46,7 @@ By giving more weight to recent prices while still considering older data, ALMA 
 
 ## Download
 
-[Download ALMA Indicator](https://github.com/Zorba-the-buddhah/Zorba-The-Buddhah.github.io/releases/download/v1.0.0/Arnaud.Legoux.Moving.Average.dll){: .button}
+[Download ALMA Indicator](https://github.com/Zorba-the-buddhah/Zorba-The-Buddhah.github.io/releases/download/v1.0.0/Arnaud.Legoux.Moving.Average.zip){: .button}
 
 ## Installation Instructions
 
